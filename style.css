@@ -45,6 +45,7 @@ text-align: center;
     padding: 20px;
     margin: 20px;
     font-size: 20px;
+    text-decoration: none;
 
 }
 
@@ -70,6 +71,8 @@ text-align: center;
     cursor: pointer;
 
 }
+
+
 
 
 @media only screen and (min-width: 1300px){

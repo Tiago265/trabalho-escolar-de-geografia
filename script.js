@@ -1,5 +1,5 @@
 function depoimento(){
-    let nota = document.getElementById('nota').value;1
+    let nota = document.getElementById('nota').value;
     if(nota >= 7){
         alert("Muito Obrigado pela nota.")
     }else{
