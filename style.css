@@ -33,7 +33,10 @@ html{
 
 #imagem img{
 
- border-radius: 5px;
+ border-radius: 10px;
+ border-style:none ;
+ shadow-box: 0 0 10px #fefefe;
+ 
 
 }
 
