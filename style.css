@@ -1,6 +1,14 @@
 body{
 
-    background-color: #000;
+    background: hsla(171, 87%, 67%, 1);
+
+background: linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#61f4de", endColorstr="#6e78ff", GradientType=1 );
     color: #fefefe;
     height: 100%;
     font-family: "Poppins", sans-serif;
@@ -25,9 +33,7 @@ html{
 
 #imagem img{
 
-    border-radius: 50px;
-    border-style: solid;
-    border-color: #000;
+ border-radius: 5px;
 
 }
 
@@ -41,6 +47,8 @@ text-align: center;
 
     border-radius: 5px;
     border-style: solid;
+    border-color: #fefefe;
+    box-shadow: 0 0 10px #fefefe;
     width: 30%;
     padding: 20px;
     margin: 20px;
@@ -53,6 +61,7 @@ text-align: center;
 
     border-radius: 5px;
     border-style: solid;
+    border-color: #000;
     border-width: 1px;
     padding: 20px;
     width: 30%;
@@ -64,9 +73,10 @@ text-align: center;
 #depoimento button:hover{
  
     border-style: solid;
-    border-color: #fefefe;
+    border-color: #000;
     background-color: #000;
-    color: #fefefe;
+    box-shadow: 0 0 10px #fefefe;
+    color: aqua;
     transition-duration: 1.5s;
     cursor: pointer;
 
