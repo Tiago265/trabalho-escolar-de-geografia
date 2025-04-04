@@ -9,7 +9,7 @@ background: -moz-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100
 background: -webkit-linear-gradient(90deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#61f4de", endColorstr="#6e78ff", GradientType=1 );
-    color: #fefefe;
+    color: #000;
     height: 100%;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
